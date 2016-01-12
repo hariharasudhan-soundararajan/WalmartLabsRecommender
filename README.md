@@ -1,6 +1,17 @@
 # WalmartLabsRecommender
 Product recommendation system using walmartlabs API
 
+This application has the following functionality:
+
+1)Search for products based upon a user-provided search string
+
+2)Use the first item in the search response as input for a product recommendation search
+
+3)Retrieve reviews of the first 10 product recommendations
+
+4)Rank order the recommended products based upon the average review score
+
+
 
 To run the application via command line:
 
