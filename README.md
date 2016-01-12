@@ -31,11 +31,11 @@ To run Test Runner:
 
 Compile all java test classes using javac
 
-C:\JUNIT_WORKSPACE>javac WalmartApiResultsTest.java,
+WORKSPACE/javac WalmartApiResultsTest.java,
 	WalmartApiResponseTest.java,
 	WalmartApiSearchTest.java,
 	WalmartItemTest.java
 	
 Now run the Test Runner program below to run the WalmartApiTestSuite
 
-C:\JUNIT_WORKSPACE>java WalmartTestRunner
+WORKSPACE/ java WalmartTestRunner
