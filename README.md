@@ -1,7 +1,7 @@
 # WalmartLabsRecommender
 Product recommendation system using walmartlabs API
 
-### This application has the following functionality:
+#### This application has the following functionality:
 
 1) Search for products based upon a user-provided search string
 
@@ -15,7 +15,7 @@ Product recommendation system using walmartlabs API
 
 
 
-### To run the application via command line:
+#### To run the application via command line:
 
 1)  Place the gson Jar in the class path
     Path/gson-2.3.1.jar:$CLASSPATH
@@ -27,7 +27,7 @@ Product recommendation system using walmartlabs API
    java Walmart
 
 
-### To run Test Runner:
+#### To run Test Runner:
 
 1) Compile all java test classes using javac
 
