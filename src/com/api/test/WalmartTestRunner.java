@@ -6,7 +6,7 @@ import org.junit.runner.notification.Failure;
 
 public class WalmartTestRunner {
    public static void main(String[] args) {
-      Result result = JUnitCore.runClasses(WalmartApiSearchTest.class);
+      Result result = JUnitCore.runClasses(WalmartApiTestSuite.class);
       for (Failure failure : result.getFailures()) {
          System.out.println(failure.toString());
       }

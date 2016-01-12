@@ -12,6 +12,7 @@ public class WalmartItemTest {
 
 	@Test
 	public void test() {
+		System.out.println("first");
 		String checkItem="27608624";
 		Walmart walmart=new Walmart();
 		ArrayList<String> checkList=new ArrayList<String>();
@@ -26,8 +27,23 @@ public class WalmartItemTest {
 		checkList.add("21853463");
 		checkList.add("38236250");
 		checkList.add("27678567");
-		ArrayList<String> itemName=walmart.searchItem(checkItem);
+		ArrayList<String> itemName=walmart.getRecommendation(checkItem);
 		assertEquals(checkList, itemName);
+		
+		
+	}
+	
+	@Test
+	public void testNull() {
+		System.out.println("nulltest");
+		String checkItem="38764442";
+		Walmart walmart=new Walmart();
+		ArrayList<String> checkList=new ArrayList<String>();
+	
+		ArrayList<String> itemName=walmart.getRecommendation(checkItem);
+		assertEquals(itemName, null);
+		
+		
 	}
 
 }

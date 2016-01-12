@@ -25,7 +25,7 @@ public class Walmart {
 		String itemID=searchQuery(queryName);
 		if(itemID==null)
 			return;
-		ArrayList<String> itemList=searchItem(itemID);
+		ArrayList<String> itemList=getRecommendation(itemID);
 		if(itemList==null)
 			return;
 		Map<String, Double> sortedMap = reviewItem(itemList);
@@ -72,7 +72,7 @@ public class Walmart {
 	 * 
 	 */
 
-	public static ArrayList<String> searchItem(String itemId){
+	public static ArrayList<String> getRecommendation(String itemId){
 
 		int itemSize=10;
 		ArrayList<String> itemList=new ArrayList<String>();

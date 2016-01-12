@@ -14,6 +14,7 @@ public class WalmartApiResultsTest {
 
 	@Test
 	public void test() {
+		System.out.println("Running test for WalmartApiResultsTest");
 		Walmart walmart=new Walmart();
 		ArrayList<String> checkList=new ArrayList<String>();
 		checkList.add("21557001");
