@@ -29,13 +29,13 @@ To run the application via command line:
 
 To run Test Runner:
 
-Compile all java test classes using javac
+1) Compile all java test classes using javac
 
 WORKSPACE/javac WalmartApiResultsTest.java,
 	WalmartApiResponseTest.java,
 	WalmartApiSearchTest.java,
 	WalmartItemTest.java
 	
-Now run the Test Runner program below to run the WalmartApiTestSuite
+2) Now run the Test Runner program below to run the WalmartApiTestSuite
 
 WORKSPACE/ java WalmartTestRunner
