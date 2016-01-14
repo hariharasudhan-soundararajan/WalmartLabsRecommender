@@ -18,24 +18,28 @@ Product recommendation system using walmartlabs API
 #### To run the application via command line:
 
 1)  Place the gson Jar in the class path
-    Path/gson-2.3.1.jar:$CLASSPATH
-
+   
+    ` Path/gson-2.3.1.jar:$CLASSPATH `
+   
 2) Go to the Walmart directory and run the javac command
-   javac Walmart.java 
+   ` javac Walmart.java `
  
 3) Run the program using Java command
-   java Walmart
+   ` java Walmart`
 
 
 #### To run Test Runner:
 
 1) Compile all java test classes using javac
 
+```
 WORKSPACE/javac WalmartApiResultsTest.java,
 	WalmartApiResponseTest.java,
 	WalmartApiSearchTest.java,
 	WalmartItemTest.java
-	
+```	
 2) Now run the Test Runner program below to run the WalmartApiTestSuite
 
+```
 WORKSPACE/java WalmartTestRunner
+```
