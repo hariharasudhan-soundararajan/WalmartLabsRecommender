@@ -19,7 +19,7 @@ Product recommendation system using walmartlabs API
 
 1)  Place the gson Jar in the class path
    
-    ` Path/gson-2.3.1.jar:$CLASSPATH `
+    `Path/gson-2.3.1.jar:$CLASSPATH`
    
 2) Go to the Walmart directory and run the javac command
    ` javac Walmart.java `
